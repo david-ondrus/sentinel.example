@@ -1,0 +1,5 @@
+elements:
+  finish_button:
+    elementType: Button
+    xpath: "//button[@id='finish']"
+    

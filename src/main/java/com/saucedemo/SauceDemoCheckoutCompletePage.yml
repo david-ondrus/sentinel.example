@@ -1,0 +1,4 @@
+elements:
+  header:
+    elementType: H2
+    xpath: "//h2"

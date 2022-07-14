@@ -1,0 +1,20 @@
+include: SauceDemoMenuPage
+Customer:
+   lastname: Doe
+   firstname: Jon
+   zip: 1234   
+elements:
+  first_name:
+    elementType: Textbox
+    xpath: "//input[@id='first-name']"
+  last_name:
+    elementType: Textbox
+    xpath: "//input[@id='last-name']"
+  zip_code:
+    elementType: Textbox
+    xpath: "//input[@id='postal-code']"
+  continue_button:
+    elementType: Button
+    xpath: "//input[@id='continue']"
+    
+  

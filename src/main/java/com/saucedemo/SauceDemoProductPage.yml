@@ -1,0 +1,8 @@
+include: SauceDemoMenuPage
+elements:
+  add_backpack_item:
+    elementType: Button
+    xpath: "//button[@id='add-to-cart-sauce-labs-backpack']"
+  remove_backpack_item:
+    elementType: Button
+    xpath: "//button[@id='remove-sauce-labs-backpack']"

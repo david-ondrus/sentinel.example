@@ -1,0 +1,4 @@
+elements:
+  checkout_button:
+    elementType: Button
+    xpath: "//button[@id='checkout']"
